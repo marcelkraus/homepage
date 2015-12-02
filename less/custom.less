@@ -1,0 +1,53 @@
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+.label {
+    text-transform: lowercase;
+}
+
+.panel {
+    margin-top: @panel-body-padding;
+    &-footer {
+        font-size: @font-size-small;
+    }
+}
+
+.information {
+    .row;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+h1 {
+    margin: 0 0 @panel-body-padding 0;
+    padding: 0;
+    small {
+        color: #404040;
+    }
+}
+
+sup {
+    color: @brand-primary;
+}
+
+blockquote {
+    margin: @panel-body-padding 0 0 0;
+}
+
+@media (min-width: @screen-sm-min) {
+    .canvas {
+        .vertical-align;
+        min-height: 100%;
+        min-height: 100vh;
+    }
+    .information {
+        .vertical-align;
+    }
+    blockquote {
+        margin-top: 0;
+    }
+}
