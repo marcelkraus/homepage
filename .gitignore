@@ -1,3 +1,5 @@
 *.pdf
 /.idea
-/components
+/vendor
+/web/components
+/web/docs/*

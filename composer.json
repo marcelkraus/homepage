@@ -1,0 +1,9 @@
+{
+    "name": "marcelkraus/marcelkraus",
+    "license": "proprietary",
+    "type": "project",
+    "require": {
+        "silex/silex": "~1.2",
+        "symfony/twig-bridge": "@stable"
+    }
+}
