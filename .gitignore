@@ -1,5 +1,7 @@
 *.pdf
 /.idea
+/node_modules
 /vendor
 /web/components
+/web/css/*
 /web/docs/*
