@@ -1,11 +1,20 @@
 CHANGELOG
 =========
 
+1.0.3
+-----
+
+ * Add trailing slash redirect
+ * Add www/non-www redirect
+ * Update content of homepage
+ * Update dependencies
+ * Update project name and license
+
 1.0.2
 -----
 
- * Minimiere Stylesheet
  * Füge CHANGELOG hinzu
+ * Minimiere Stylesheet
 
 1.0.1
 -----

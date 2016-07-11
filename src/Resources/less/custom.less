@@ -10,14 +10,16 @@ blockquote {
 }
 
 h1 {
-    margin: 0 0 @panel-body-padding 0;
+    margin: 0 0 (@panel-body-padding/2) 0;
     padding: 0;
-    small {
-        color: #404040;
-    }
     sup {
         color: @brand-primary;
     }
+}
+
+h2 {
+    .lead;
+    font-weight: normal;
 }
 
 .panel {

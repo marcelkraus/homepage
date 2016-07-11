@@ -1,7 +1,13 @@
 {
-    "name": "marcelkraus/marcelkraus",
-    "license": "proprietary",
+    "name": "marcelkraus/homepage",
+    "license": "MIT",
     "type": "project",
+    "authors": [
+        {
+            "name": "Marcel Kraus",
+            "email": "mail@marcelkraus.de"
+        }
+    ],
     "require": {
         "silex/silex": "~1.2",
         "symfony/twig-bridge": "@stable"
