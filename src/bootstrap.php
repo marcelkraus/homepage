@@ -1,12 +1,11 @@
 <?php
 
+use Silex\Application;
 use Silex\Provider\TwigServiceProvider;
 
-$loader = require_once __DIR__ . '/../vendor/autoload.php';
-$loader->add(null, __DIR__.'/../src');
+require_once __DIR__ . '/../vendor/autoload.php';
 
-$app = new Silex\Application();
-$app['debug'] = (strstr($_SERVER['SERVER_NAME'], '.dev') || strstr($_SERVER['SERVER_NAME'], 'staging.')) ? true : false;
+$app = new Application();
 
 $app->register(new TwigServiceProvider(), array(
     'twig.form.templates' => array('form.html.twig'),
@@ -17,4 +16,4 @@ $app->get('/', function () use ($app) {
     return $app['twig']->render('homepage.html.twig');
 });
 
-$app->run();
+return $app;
