@@ -1,6 +1,13 @@
 CHANGELOG
 =========
 
+1.0.4
+-----
+
+ * Add functional test
+ * Add Travis support
+ * Update Bower components
+
 1.0.3
 -----
 
