@@ -16,7 +16,7 @@ class AppTest extends WebTestCase
 
         $this->assertSame(200, $client->getResponse()->getStatusCode());
         $this->assertCount(1, $crawler->filter('h1:contains("Marcel Kraus")'));
-        $this->assertCount(1, $crawler->filter('h2:contains("PHP-Entwickler bei Chefkoch.de")'));
-        $this->assertCount(1, $crawler->filter('h2:contains("Selbstständiger Internet-Dienstleister")'));
+        $this->assertCount(1, $crawler->filter('h2:contains("iOS- & Web-Entwickler bei Chefkoch.de")'));
+        $this->assertCount(1, $crawler->filter('h2:contains("Selbstständiger Web-Entwickler und IT-Dienstleister")'));
     }
 }
