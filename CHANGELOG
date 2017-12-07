@@ -1,40 +1,44 @@
-CHANGELOG
-=========
+# CHANGELOG
 
-1.1.0
------
+All notable changes to this project will be documented in this file.
 
- * NeXT step in career: iOS
+The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-1.0.4
------
+## 1.1.1
 
- * Add functional test
- * Add Travis support
- * Update Bower components
+- Announce iOS development more explicit
+- Update meta information and tags
+- Update dependencies
 
-1.0.3
------
+## 1.1
 
- * Add trailing slash redirect
- * Add www/non-www redirect
- * Update content of homepage
- * Update dependencies
- * Update project name and license
+- Add iOS as NeXT step in career
+- Update dependencies
 
-1.0.2
------
+## 1.0.4
 
- * Füge CHANGELOG hinzu
- * Minimiere Stylesheet
+- Add functional test
+- Add Travis support
+- Update Bower components
 
-1.0.1
------
+## 1.0.3
 
- * Optimiere Struktur des Stylesheets
- * Tausche Reihenfolge der Tags
+- Add trailing slash redirect
+- Add www/non-www redirect
+- Update content of homepage
+- Update dependencies
+- Update project name and license
 
-1.0.0
------
+## 1.0.2
 
- * Initialer Release
+- Add CHANGELOG
+- Minimize stylesheet
+
+## 1.0.1
+
+- Optimize structure of stylesheets
+- Change sorting of tags
+
+## 1.0.0
+
+- Initial release
