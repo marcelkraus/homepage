@@ -1,0 +1,13 @@
+.bilberry-hugo-theme article .content .meta .categories:before {
+    content: " ";
+}
+
+.bilberry-hugo-theme article .tags a:not(:last-child):after {
+    content: ", ";
+}
+
+.twitter-tweet {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.5em !important;
+}

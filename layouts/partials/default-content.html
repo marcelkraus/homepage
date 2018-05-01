@@ -2,11 +2,13 @@
     <h3><a href="{{ .URL }}">{{ .Title }}</a></h3>
     <div class="meta">
         {{ if .Params.PublishDate }}
+            <i class="fa fa-calendar"></i>&nbsp;
             <span class="date moment">{{ .PublishDate.Format "2006-01-02" }}</span>
         {{ end }}
 
         {{ with .Params.categories }}
             <span class="categories">
+                <i class="fa fa-folder-open"></i>&nbsp;
                 {{ range . }}
                     <a href="/categories/{{ . | urlize }}">{{ . }}</a>
                 {{ end }}
@@ -14,7 +16,12 @@
         {{ end }}
 
         {{ with .Params.author }}
-            <span class="author"><a href="/author/{{ . | urlize }}">{{ . }}</a></span>
+            {{ if ne . "Marcel Kraus" }}
+                <span class="author">
+                    <i class="fa fa-user"></i>&nbsp;
+                    <a href="/author/{{ . | urlize }}">{{ . }}</a>
+                </span>
+            {{ end }}
         {{ end }}
     </div>
 

@@ -9,6 +9,7 @@ googleAnalytics = "UA-12561257-14"
 
 [params]
   author = "Marcel Kraus"
+  css_modules = ["/css/hacks.css"]
   subtitle = "Ein Leben zwischen iOS und Werkstatt"
   description = "Getreu meinem Motto &quot;Stay hungry, stay foolish&quot; sind Apple-Produkte und das Internet seit über 15 Jahren gleichermaßen meine Berufung und Leidenschaft."
   customImage = "/images/avatar-small.jpg"
