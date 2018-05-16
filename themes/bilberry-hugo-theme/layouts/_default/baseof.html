@@ -9,8 +9,8 @@
         <meta name="keywords" content="{{ .Site.Params.keywords }}">
         {{ .Hugo.Generator }}
 
-        <link rel="icon" type="image/png" href="{{ "/favicon-32x32.png" | relURL }}" sizes="32x32">
-        <link rel="icon" type="image/png" href="{{ "/favicon-16x16.png" | relURL }}" sizes="16x16">
+        <link rel="icon" type="image/png" href="{{ "/favicon-32x32.png" | absURL }}" sizes="32x32">
+        <link rel="icon" type="image/png" href="{{ "/favicon-16x16.png" | absURL }}" sizes="16x16">
 
         <link rel="stylesheet" href="{{ "dist/theme.css" | relURL }}">
 
@@ -18,8 +18,18 @@
         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.2.1/dist/instantsearch-theme-algolia.min.css">
 
 
+        {{ if isset .Site.Params "css_modules" }}
+            {{ range .Site.Params.css_modules }}
+                <link rel="stylesheet" href="{{ . | absURL }}">
+            {{ end }}
+        {{ end }}
+
         {{/* NOTE: the Site's title, and if there is a page title, that is set too */}}
-        <title>{{ block "title" . }}{{ .Site.Title }} {{ with .Title }} | {{ . }}{{ end }}{{ end }}</title>
+        <title>
+            {{ block "title" . }}
+                {{ .Site.Title }} | {{ if eq .Site.Title .Title }}{{ .Site.Params.subtitle }}{{ else }}{{ .Title }}{{ end }}
+            {{ end }}
+        </title>
     </head>
     <body class="bilberry-hugo-theme">
         {{ partial "topnav" . }}
@@ -38,8 +48,14 @@
         {{ partial "mathjax" . }}
         {{ end }}
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.1/moment-with-locales.min.js" integrity="sha256-TbOIe++NbC9P3KTtUMJ5wcROlBdnRqrPleLdpPg3xxE=" crossorigin="anonymous"></script>
-        <script src="{{ "dist/theme.js" | relURL }}"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.1/moment-with-locales.min.js" integrity="sha256-TbOIe++NbC9P3KTtUMJ5wcROlBdnRqrPleLdpPg3xxE=" crossorigin="anonymous" type="application/javascript"></script>
+        <script src="{{ "dist/theme.js" | absURL }}" type="application/javascript"></script>
+
+        {{ if isset .Site.Params "js_modules" }}
+            {{ range .Site.Params.js_modules }}
+                <script src="{{ . | absURL }}" type="application/javascript"></script>
+            {{ end }}
+        {{ end }}
 
         <script>
             $(document).ready(function() {
