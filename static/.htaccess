@@ -1,0 +1,7 @@
+RewriteEngine on
+
+RewriteCond %{HTTPS} !=on
+RewriteRule ^/?(.*)$ https://blog.marcelkraus.de/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} !^blog\.marcelkraus\.de$ [NC]
+RewriteRule ^/?(.*)$ https://blog.marcelkraus.de/$1 [R=301,L]
