@@ -51,6 +51,6 @@ Marc hatte Karten für die Aufzeichnung des [Accidental Tech Podcast](http://atp
 
 {{< image source="/images/2018/article/wwdc-atp-recoding.jpg" description="Die Aufzeichnung des ATP #277 fand live im San Jose Mariott statt, wir waren vor Ort." >}}
 
-Nach der Aufzeichnung ging es umgehend ins Hotelzimmer, denn wir waren platt. Die Eindrücke, die neuen Themen, das Umfeld im englischsprachigen Raum schlauchen einen sehr. Schnell noch die aktuellen Beta-Versionen von iOS für die mitgebrachten Testgeräte heruntergeladen und ab ins Hotel.
+Nach der Aufzeichnung ging es umgehend ins Hotelzimmer, denn hwir waren platt. Die Eindrücke, die neuen Themen, das Umfeld im englischsprachigen Raum schlauchen einen sehr. Schnell noch die aktuellen Beta-Versionen von iOS für die mitgebrachten Testgeräte heruntergeladen und ab ins Hotel.
 
 Ob unsere App ohne große Eingriffe unter iOS 12 funktioniert, werden wir morgen ausprobieren…
