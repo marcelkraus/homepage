@@ -9,8 +9,8 @@ categories:
   - "iOS-Entwicklung"
 tags:
   - "Auf Reisen"
+  - "Dienstreise zur WWDC 2018"
   - "Leben bei Chefkoch"
-  - "WWDC 2018"
 noSummary: true
 ---
 

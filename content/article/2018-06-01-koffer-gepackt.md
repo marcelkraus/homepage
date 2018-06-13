@@ -8,8 +8,8 @@ featuredImage: "/images/2018/baggage-unsplash.jpg"
 categories:
   - "iOS-Entwicklung"
 tags:
+  - "Dienstreise zur WWDC 2018"
   - "Leben bei Chefkoch"
-  - "WWDC 2018"
 noSummary: true
 ---
 

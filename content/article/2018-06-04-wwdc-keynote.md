@@ -9,8 +9,8 @@ categories:
   - "iOS-Entwicklung"
 tags:
   - "Auf Reisen"
+  - "Dienstreise zur WWDC 2018"
   - "Leben bei Chefkoch"
-  - "WWDC 2018"
 ---
 
 Heute war der erste Tag der WWDC. Die Keynote stand im Mittelpunkt und – für uns Entwickler noch wichtiger – die „Platforms State of the Union“, in der die Techniker von Apple einen technischen Überblick über die wichtigsten Neuerungen geben.

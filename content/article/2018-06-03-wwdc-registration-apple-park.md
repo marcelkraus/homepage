@@ -9,8 +9,8 @@ categories:
   - "iOS-Entwicklung"
 tags:
   - "Auf Reisen"
+  - "Dienstreise zur WWDC 2018"
   - "Leben bei Chefkoch"
-  - "WWDC 2018"
 ---
 
 Um 6:00 Uhr war die Nacht zu Ende. Bereinigt von der Zeitverschiebung war es schließlich 15 Uhr in Deutschland, an weiteren Schlaf war nicht zu denken. Ab zu Starbucks, zwei Kaffee geordert und den Tag geplant.

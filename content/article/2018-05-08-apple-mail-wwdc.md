@@ -8,8 +8,8 @@ featuredImage: "/images/2018/wwdc-invite.jpg"
 categories:
   - "iOS-Entwicklung"
 tags:
+  - "Dienstreise zur WWDC 2018"
   - "Leben bei Chefkoch"
-  - "WWDC 2018"
 ---
 
 Dank meinem [hervoragenden Arbeitgeber](https://www.chefkoch.de) und meiner ebenso hervorragenden Kollegen aus der IT erhalte ich dieses Jahr die einmalige Gelegenheit, an der WWDC in San Jose, Kalifornien, teilzunehmen.

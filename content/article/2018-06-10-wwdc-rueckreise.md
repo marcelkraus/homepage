@@ -9,8 +9,8 @@ categories:
   - "iOS-Entwicklung"
 tags:
   - "Auf Reisen"
+  - "Dienstreise zur WWDC 2018"
   - "Leben bei Chefkoch"
-  - "WWDC 2018"
 ---
 
 Ich schreibe diesen Eintrag nach insgesamt fast 30 Stunden auf den Beinen. tl;dr: Marc und ich sind gesund und munter wieder zurück in Deutschland.

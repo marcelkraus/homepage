@@ -9,8 +9,8 @@ categories:
   - "iOS-Entwicklung"
 tags:
   - "Auf Reisen"
+  - "Dienstreise zur WWDC 2018"
   - "Leben bei Chefkoch"
-  - "WWDC 2018"
 ---
 
 Der heutige Tag war geprägt von guten Sessions und mehreren Besuchen in den Labs. Entgegen der anderen Beiträge über die WWDC möchte ich den Schwerpunkt heute jedoch auf unsere Mittagspause lenken. Wir hatten ein „Once in a Lifetime“ Erlebnis: Ein Besuch des „alten“ Apple Campus in Cupertino, 1 Infinite Loop.

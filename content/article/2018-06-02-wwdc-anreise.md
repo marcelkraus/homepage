@@ -9,8 +9,8 @@ categories:
   - "iOS-Entwicklung"
 tags:
   - "Auf Reisen"
+  - "Dienstreise zur WWDC 2018"
   - "Leben bei Chefkoch"
-  - "WWDC 2018"
 ---
 
 Zum Zeitpunkt der Erstellung dieser Zeilen bin ich über 24 h auf den Beinen – ich versuche die nachfolgenden Zeilen also kurz zu halten und während dem Schreiben nicht einzuschlafen. 😬
