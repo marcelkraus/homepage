@@ -1,7 +1,7 @@
 ---
-title: "WWDC 2018, Tag II: Registrierung & Apple Park"
+title: "Reise zur WWDC18, Tag II: Registrierung & Apple Park"
 date: 2018-06-03
-url: "/2018/wwdc-2018-tag-2-registration-und-apple-park/"
+url: "/2018/reise-zur-wwdc18-tag-2-registration-und-apple-park/"
 author: "Marcel Kraus"
 
 featuredImage: "/images/2018/wwdc-apple-park.jpg"

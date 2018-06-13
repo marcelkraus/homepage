@@ -1,7 +1,7 @@
 ---
-title: "WWDC 2018, Tag VIII: Die Rückreise"
+title: "Reise zur WWDC18, Tag VIII: Die Rückreise"
 date: 2018-06-10
-url: "/2018/wwdc-2018-tag-8-rueckreise/"
+url: "/2018/reise-zur-wwdc18-tag-8-rueckreise/"
 author: "Marcel Kraus"
 
 featuredImage: "/images/2018/wwdc-abbau.jpg"

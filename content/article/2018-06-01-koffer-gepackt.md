@@ -1,7 +1,7 @@
 ---
 title: "Ich packe meinen Koffer…"
 date: 2018-06-01
-url: "/2018/bereit-zum-abflug-zur-wwdc/"
+url: "/2018/koffer-packen-fuer-die-wwdc18/"
 author: "Marcel Kraus"
 
 featuredImage: "/images/2018/baggage-unsplash.jpg"

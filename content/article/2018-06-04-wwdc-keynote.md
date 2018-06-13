@@ -1,7 +1,7 @@
 ---
-title: "WWDC 2018, Tag III: Die Keynote"
+title: "Reise zur WWDC18, Tag III: Die Keynote"
 date: 2018-06-04
-url: "/2018/wwdc-2018-tag-3-keynote/"
+url: "/2018/reise-zur-wwdc18-tag-3-keynote/"
 author: "Marcel Kraus"
 
 featuredImage: "/images/2018/wwdc-keynote.jpg"

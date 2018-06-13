@@ -1,7 +1,7 @@
 ---
-title: "WWDC 2018, Tag VII: Das Finale"
+title: "Reise zur WWDC18, Tag VII: Das Finale"
 date: 2018-06-08
-url: "/2018/wwdc-2018-tag-7-finale/"
+url: "/2018/reise-zur-wwdc18-tag-7-finale/"
 author: "Marcel Kraus"
 
 featuredImage: "/images/2018/wwdc-finale.jpg"

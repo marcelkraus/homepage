@@ -1,7 +1,7 @@
 ---
 title: "Die WWDC kann kommen"
 date: 2018-05-08
-url: "/2018/mail-von-apple-zur-wwdc/"
+url: "/2018/mail-von-apple-zur-wwdc18/"
 author: "Marcel Kraus"
 
 featuredImage: "/images/2018/wwdc-invite.jpg"

@@ -1,7 +1,7 @@
 ---
-title: "WWDC 2018, Tag V: Apple Campus"
+title: "Reise zur WWDC18, Tag V: Apple Campus"
 date: 2018-06-06
-url: "/2018/wwdc-2018-tag-5-apple-campus/"
+url: "/2018/reise-zur-wwdc18-tag-5-apple-campus/"
 author: "Marcel Kraus"
 
 featuredImage: "/images/2018/wwdc-apple-campus.jpg"
