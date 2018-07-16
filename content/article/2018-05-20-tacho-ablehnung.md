@@ -7,6 +7,8 @@ author: "Marcel Kraus"
 featuredImage: "/images/2018/rejection-unsplash.jpg"
 categories:
   - "iOS-Entwicklung"
+tags:
+  - "Tacho – Wie schnell bin ich?"
 ---
 
 Ganz so einfach war es nun also doch nicht…
