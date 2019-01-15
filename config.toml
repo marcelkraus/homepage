@@ -1,3 +1,49 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "https://www.marcelkraus.de"
+languageCode = "de-DE"
+title = "Marcel Kraus // iOS- und Web-Entwickler aus Erftstadt"
+theme = "hugo-split-theme"
+disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
+copyright = "&copy; 2019 Marcel Kraus"
+
+[params]
+    author = "Marcel Kraus"
+    description = "Marcel Kraus aus Erftstadt, iOS- und Web-Entwickler, tätig bei der Chefkoch GmbH in Bonn und selbstständiger IT-Dienstleister."
+    shareImage = "images/social.jpg"
+    twitterHandle = "marcelkraus"
+    favicon = "favicon.ico"
+    [params.visual]
+        [params.visual.image]
+            enable = true
+            file = "images/background.jpg"
+            position = "center center"
+    [[params.links]]
+        [params.links.list1]
+            heading = "Kontakt"
+            [[params.links.list1.link]]
+                text = "GitHub"
+                url = "https://github.com/marcelkraus"
+            [[params.links.list1.link]]
+                text = "Twitter"
+                url = "http://twitter.com/marcelkraus"
+            [[params.links.list1.link]]
+                text = "Xing"
+                url = "https://www.xing.com/profile/Marcel_Kraus2"
+    [[params.links]]
+        [params.links.list2]
+            heading = "Netzwerk"
+            [[params.links.list2.link]]
+                text = "myKNIGHT"
+                url = "https://www.myknight.de"
+            [[params.links.list2.link]]
+                text = "BugTales"
+                url = "https://www.bugtales.de"
+
+    [[params.links]]
+        [params.links.list3]
+            heading = "Rechtliches"
+            [[params.links.list3.link]]
+                text = "Impressum"
+                url = "/impressum"
+            [[params.links.list3.link]]
+                text = "Datenschutz"
+                url = "/datenschutz"
