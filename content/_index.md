@@ -1,14 +1,12 @@
 +++
 title = "Marcel Kraus"
-tagline = "iOS- und Web-Entwickler"
+tagline = "Hallo Welt"
 +++
 
-Hallo, ich bin Marcel!
+Ich bin Marcel, iOS-Entwickler aus Erftstadt bei Köln.
 
-Seit Mai 2017 bin ich als iOS-Entwickler bei der Chefkoch GmbH tätig. Neben meiner täglichen Arbeit vor Ort in Bonn bin ich nebenberuflich selbstständig als iOS- und Web-Entwickler.
+Seit Mai 2017 arbeite ich als iOS-Entwickler bei der Chefkoch GmbH in Bonn. Vorher war ich über 15 Jahre als Web-Entwickler tätig – eine Passion, die ich neben der iOS-Entwicklung auch heute noch selbstständig auslebe.
 
-Das Web und mich verbindet uns seit über 15 Jahren. Vor meiner Anstellung als iOS-Entwickler war ich als Backend-Entwickler und Projektleiter bei einem großen deutschen Wohlfahrtsverband beschäftigt.
+Privat gehört meine Leidenschaft „alten“ Autos – und der Arbeit an diesen. Ich restauriere zur Zeit einen Pontiac Firebird Trans Am, Baujahr 1982, u.a. bekannt aus der Serie „Knight Rider“. Langfristig soll sich zu diesem und meinem BMW Z3 auch noch ein reinrassiger Rennwagen gesellen; wir werden sehen, was die Zeit bringt.
 
-Meine private Leidenschaft gehört „alten“ Autos und der Arbeit an diesen. Ich restauriere zur Zeit einen 1982er Pontiac Firebird Trans Am, bekannt aus der Kult-Serie „Knight Rider“. Und seit „Goldeneye“ bin ich ein Fan des BMW Z3. Heute steht einer bereit in meiner Garage und freut sich auf jeden sonnigen Tag.
-
-Dieser Internetauftritt ist meine Visitenkarte im Internet und Sprungstelle zu meinen anderen Aktivitäten.
+Dies ist meine Visitenkarte. Und von Facebook, Twitter und Co. nehme ich ab 2019 Abschied.
