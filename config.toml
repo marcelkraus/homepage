@@ -18,24 +18,27 @@ copyright = "&copy; 2019 Marcel Kraus"
             position = "center center"
     [[params.links]]
         [params.links.list1]
-            heading = "Kontakt"
+            heading = "Ich im Web"
             [[params.links.list1.link]]
                 text = "GitHub"
                 url = "https://github.com/marcelkraus"
             [[params.links.list1.link]]
                 text = "Twitter"
-                url = "http://twitter.com/marcelkraus"
+                url = "https://twitter.com/marcelkraus"
             [[params.links.list1.link]]
                 text = "Xing"
                 url = "https://www.xing.com/profile/Marcel_Kraus2"
     [[params.links]]
         [params.links.list2]
-            heading = "Netzwerk"
+            heading = "Von mir"
             [[params.links.list2.link]]
-                text = "myKNIGHT"
+                text = "Mein Blog"
+                url = "https://thoughts.marcelkraus.de"
+            [[params.links.list2.link]]
+                text = "myKNIGHT.de"
                 url = "https://www.myknight.de"
             [[params.links.list2.link]]
-                text = "BugTales"
+                text = "BugTales.de"
                 url = "https://www.bugtales.de"
 
     [[params.links]]
