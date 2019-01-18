@@ -23,6 +23,9 @@ copyright = "&copy; 2019 Marcel Kraus"
                 text = "GitHub"
                 url = "https://github.com/marcelkraus"
             [[params.links.list1.link]]
+                text = "RaceRoom"
+                url = "http://game.raceroom.com/users/marcelkraus/"
+            [[params.links.list1.link]]
                 text = "Twitter"
                 url = "https://twitter.com/marcelkraus"
             [[params.links.list1.link]]
