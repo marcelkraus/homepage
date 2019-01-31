@@ -1,55 +1,31 @@
-baseURL = "https://www.marcelkraus.de"
-languageCode = "de-DE"
-title = "Marcel Kraus // iOS- und Web-Entwickler aus Erftstadt"
-theme = "hugo-split-theme"
-disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
-copyright = "&copy; 2019 Marcel Kraus"
+baseURL = "https://www.marcelkraus.de/"
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+relativeURLs = true
+disableRSS = true
+enableRobotsTXT = true
+editor = "nano"
+languageCode = "de"
+language = "de"
+theme = "vncnt-hugo"
+title = "Marcel Kraus · iOS- und Web-Entwickler aus Erftstadt"
+
+[blackfriday]
+extensions = ["hardLineBreak"]
+
+[permalinks]
+fixed = ":title/"
+posts = "posts/:slug/"
 
 [params]
-    author = "Marcel Kraus"
-    description = "Marcel Kraus aus Erftstadt, iOS- und Web-Entwickler, tätig bei der Chefkoch GmbH in Bonn und selbstständiger IT-Dienstleister."
-    shareImage = "images/social.jpg"
-    twitterHandle = "marcelkraus"
-    favicon = "favicon.ico"
-    [params.visual]
-        [params.visual.image]
-            enable = true
-            file = "images/background.jpg"
-            position = "center center"
-    [[params.links]]
-        [params.links.list1]
-            heading = "Ich im Web"
-            [[params.links.list1.link]]
-                text = "GitHub"
-                url = "https://github.com/marcelkraus"
-            [[params.links.list1.link]]
-                text = "RaceRoom"
-                url = "http://game.raceroom.com/users/marcelkraus/"
-            [[params.links.list1.link]]
-                text = "Twitter"
-                url = "https://twitter.com/marcelkraus"
-            [[params.links.list1.link]]
-                text = "Xing"
-                url = "https://www.xing.com/profile/Marcel_Kraus2"
-    [[params.links]]
-        [params.links.list2]
-            heading = "Von mir"
-            [[params.links.list2.link]]
-                text = "Mein Blog"
-                url = "https://thoughts.marcelkraus.de"
-            [[params.links.list2.link]]
-                text = "myKNIGHT.de"
-                url = "https://www.myknight.de"
-            [[params.links.list2.link]]
-                text = "BugTales.de"
-                url = "https://www.bugtales.de"
-
-    [[params.links]]
-        [params.links.list3]
-            heading = "Rechtliches"
-            [[params.links.list3.link]]
-                text = "Impressum"
-                url = "/impressum"
-            [[params.links.list3.link]]
-                text = "Datenschutz"
-                url = "/datenschutz"
+author = "Marcel Kraus"
+description = "Marcel Kraus aus Erftstadt, iOS- und Web-Entwickler, tätig bei der Chefkoch GmbH in Bonn und als selbstständiger IT-Dienstleister."
+bio = "Ich bin iOS- und Web-Entwickler, arbeite bei der Chefkoch GmbH in Bonn sowie als selbstständiger IT-Dienstleister.\n\nPrivat bin ich Auto-Nerd, Schrauber und Sim Racer. Was mir so durch den Kopf geht, findet ihr in meinem [Micro.blog](https://thoughts.marcelkraus.de).\n\n<small>M. Kraus · Dreikönigenweg 8a · D-50374 Erftstadt\n<i class=\"fas fa-envelope\" aria-hidden=\"true\"></i> hallo (at) marcelkraus.de · <i class=\"fas fa-phone\"></i> +49 2235 8401372\n*Diese Seite ist frei von Tracking-Codes und Cookies*</small>"
+avatar = "images/avatar.jpg"
+favicon = "images/favicon.ico"
+	[params.contact]
+		blog = "https://thoughts.marcelkraus.de"
+    github = "https://github.com/marcelkraus"
+    twitter = "https://twitter.com/marcelkraus"
+		xing = "https://www.xing.com/profile/Marcel_Kraus2"
