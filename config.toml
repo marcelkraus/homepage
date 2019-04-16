@@ -21,11 +21,10 @@ posts = "posts/:slug/"
 [params]
 author = "Marcel Kraus"
 description = "Marcel Kraus aus Erftstadt, iOS- und Web-Entwickler, tätig bei der Chefkoch GmbH in Bonn und als selbstständiger IT-Dienstleister."
-bio = "Ich bin iOS- und Web-Entwickler, arbeite bei der Chefkoch GmbH in Bonn sowie als selbstständiger IT-Dienstleister.\n\nPrivat bin ich Auto-Nerd, Schrauber und Sim Racer. Was mir so durch den Kopf geht, findet ihr in meinem [Micro.blog](https://thoughts.marcelkraus.de).\n\n<small>M. Kraus · Dreikönigenweg 8a · D-50374 Erftstadt\n<i class=\"fas fa-envelope\" aria-hidden=\"true\"></i> hallo (at) marcelkraus.de · <i class=\"fas fa-phone\"></i> +49 2235 8401372\n*Diese Seite ist frei von Tracking-Codes und Cookies*</small>"
+bio = "Ich bin iOS- und Web-Entwickler, arbeite bei der Chefkoch GmbH in Bonn sowie als selbstständiger IT-Dienstleister.\n\nPrivat bin ich Auto-Nerd, Schrauber und Sim Racer.\n\n<small>M. Kraus · Dreikönigenweg 8a · D-50374 Erftstadt\n<i class=\"fas fa-envelope\" aria-hidden=\"true\"></i> hallo (at) marcelkraus.de · <i class=\"fas fa-phone\"></i> +49 2235 8401372\n*Diese Seite ist frei von Tracking-Codes und Cookies*</small>"
 avatar = "images/avatar.jpg"
 favicon = "images/favicon.ico"
 	[params.contact]
-		blog = "https://thoughts.marcelkraus.de"
     github = "https://github.com/marcelkraus"
     twitter = "https://twitter.com/marcelkraus"
 		xing = "https://www.xing.com/profile/Marcel_Kraus2"
