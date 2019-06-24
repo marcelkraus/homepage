@@ -9,7 +9,7 @@ editor = "nano"
 languageCode = "de"
 language = "de"
 theme = "vncnt-hugo"
-title = "Marcel Kraus · iOS- und Web-Entwickler aus Erftstadt"
+title = "Marcel Kraus · App-Entwickler (iOS & Flutter) aus Erftstadt"
 
 [blackfriday]
 extensions = ["hardLineBreak"]
@@ -20,8 +20,8 @@ posts = "posts/:slug/"
 
 [params]
 author = "Marcel Kraus"
-description = "Marcel Kraus aus Erftstadt, iOS- und Web-Entwickler, tätig bei der Chefkoch GmbH in Bonn und als selbstständiger IT-Dienstleister."
-bio = "Ich bin iOS- und Web-Entwickler.\n\nIch arbeite bei der Chefkoch GmbH in Bonn sowie nebenberuflich als selbstständiger IT-Dienstleister.\n\nDarüber hinaus bin ich Auto-Nerd, Hobby-Schrauber und Sim Racer.\n\n<small>M. Kraus · Dreikönigenweg 8a · D-50374 Erftstadt\n<i class=\"fas fa-envelope\" aria-hidden=\"true\"></i> hallo (at) marcelkraus.de · <i class=\"fas fa-phone\"></i> +49 2235 8401372\n*Diese Seite ist frei von Tracking-Codes und Cookies*</small>"
+description = "Marcel Kraus aus Erftstadt bei Köln, App-Entwickler (iOS & Flutter) bei der Chefkoch GmbH in Bonn und selbstständiger IT-Dienstleister."
+bio = "Ich bin ein App-Entwickler bei der Chefkoch GmbH in Bonn und selbstständiger IT-Dienstleister.\n\nIch blogge über die Restauration meines [Pontiac Trans Am](https://www.myknight.de) und die Zeit mit meinem [Tesla Model 3](https://www.t-wie-tesla.de).\n\n<small>M. Kraus · Dreikönigenweg 8a · D-50374 Erftstadt\n<i class=\"fas fa-envelope\" aria-hidden=\"true\"></i> hallo (at) marcelkraus.de · <i class=\"fas fa-phone\"></i> +49 2235 8401372\n*Diese Seite ist frei von Tracking-Codes und Cookies*</small>"
 avatar = "images/avatar.jpg"
 favicon = "images/favicon.ico"
 	[params.contact]
