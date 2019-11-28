@@ -1,0 +1,123 @@
+baseURL = "https://www.marcelkraus.de"
+theme = "devresume"
+
+languageCode = "de"
+defaultContentLanguage = "de"
+title = "Marcel J. Kraus, Softwareentwickler (iOS & Flutter)"
+
+[params]
+    author = "Marcel J. Kraus"
+    description = "Marcel J. Kraus aus Erftstadt bei Köln, Softwareentwickler (iOS & Flutter) bei der Chefkoch GmbH in Bonn und selbstständiger IT-Dienstleister."
+    primaryColor = "#FF9900"
+    textPrimaryColor = "#1b1b1b"
+    [params.profile]
+        enable = true
+        name = "Marcel J. Kraus"
+        tagline = "Softwareentwickler (iOS & Flutter)"
+        avatar = "avatar.jpg"
+    [params.contact]
+        enable = true
+        location = "Erftstadt, bei Köln"
+        [[params.contact.list]]
+            icon = "fas fa-phone-square"
+            url = "tel:#"
+            text = "+49 2235 8401372"
+        [[params.contact.list]]
+            icon = "fas fa-envelope-square"
+            url = "mailto:#"
+            text = "hallo (at) marcelkraus.de"
+        [[params.contact.list]]
+            icon = "fas fa-globe"
+            url = "#"
+            text = "www.marcelkraus.de"
+    [params.summary]
+        enable = true
+        text = "Ich bin Marcel, Softwareentwickler bei der Chefkoch GmbH in Bonn und ein Mann mit vielen Qualitäten. Ich entwickle für Apple iOS, Google Flutter und das Web (Symfony) und bin nebenberuflich selbstständig: Solltest du einen Entwickler (oder generell einen IT-Dienstleister) suchen, sprich mich gerne an.<br/><br/>In meiner Freizeit blogge ich über die Erfahrungen mit meinem Tesla Model 3, die Restauration meines Pontiac Trans Am, fahre über die legendäre Nordschleife oder sitze in meinem Rennsimulator: Ja, ich habe Benzin im Blut (oder Strom?!)."
+    [params.experience]
+        enable = true
+        [[params.experience.list]]
+            title = "Softwareentwickler"
+            dates = "2016 - Heute"
+            company = "Chefkoch GmbH, Bonn"
+            details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis."
+        [[params.experience.list.items]]
+            details = "Lorem ipsum dolor sit amet, consectetuer."
+        [[params.experience.list.items]]
+            details = "Aenean commodo ligula eget dolor."
+        [[params.experience.list.items]]
+            details = "Etiam ultricies nisi vel augue."
+        [[params.experience.list]]
+            title = "Projektleiter für Onlinedienste"
+            dates = "2004 - 2016"
+            company = "ASB Deutschland e.V., Köln"
+            details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel."
+            [[params.experience.list.items]]
+                details = "Lorem ipsum dolor sit amet, consectetuer."
+            [[params.experience.list.items]]
+                details = "Aenean commodo ligula eget dolor."
+        [params.projects]
+            enable = true
+            [[params.projects.list]]
+                title = "T wie TESLA"
+                meta = "Persönlicher Blog"
+                tagline = "Ich habe den Einstieg in die E-Mobiltät gewagt und fahre seit dem 19. Juni 2019 ein Model 3 von Tesla. Auf “T wie TESLA” schreibe ich über meine Erfahrungen mit dem Model 3, dem Tesla-Ökosystem und meinen generellen Erfahrungen."
+                [[params.projects.list.link]]
+                    url = "https://www.twietesla.de"
+                    title = "Besuche meinen Blog “T wie TESLA“…"
+                    cta = "T wie TESLA besuchen"
+            [[params.projects.list]]
+                title = "myKNIGHT.de"
+                meta = "Persönlicher Blog"
+                tagline = "Aktuell restauriere ich einen 1982er Pontiac Firebird Trans Am, dir ganz sicher bekannt als “K.I.T.T.” aus “Knight Rider”. Auch wenn die Restauration etwas länger dauert, irgendwann spürt mein Trans Am wieder die Straße unter seinen Reifen."
+                [[params.projects.list.link]]
+                    url = "https://www.myknight.de"
+                    title = "Besuche meinen Blog “myKNIGHT.de”…"
+                    cta = "myKNIGHT.de besuchen"
+    [params.information]
+        enable = false
+    [params.education]
+        enable = false
+    [params.awards]
+        enable = false
+    [params.skills]
+        enable = true
+        [[params.skills.list]]
+            title = "iOS-Entwicklung"
+            [[params.skills.list.items]]
+            details = "Swift"
+        [[params.skills.list]]
+            title = "Web-Entwicklung"
+            [[params.skills.list.items]]
+            details = "Effective communication"
+    [params.languages]
+        enable = true
+        [[params.languages.list]]
+            name = "Deutsch"
+            level = "Muttersprache"
+        [[params.languages.list]]
+            name = "Englisch"
+            level = "Fließend"
+    [params.interests]
+        enable = true
+        [[params.interests.list]]
+            name = "Automobiles Kulturgut"
+        [[params.interests.list]]
+            name = "Klemmbausteine"
+        [[params.interests.list]]
+            name = "Motorsport"
+        [[params.interests.list]]
+            name = "Sim Racing"
+    [params.social]
+        enable = true
+        [[params.social.list]]
+            icon = "fab fa-github-square"
+            url = "//github.com/marcelkraus"
+            title = "marcelkraus"
+        [[params.social.list]]
+            icon = "fab fa-twitter-square"
+            url = "//twitter.com/marcelkraus"
+            title = "@marcelkraus"
+        [[params.social.list]]
+            icon = "fab fa-xing-square"
+            url = "//www.xing.com/profile/Marcel_Kraus2"
+            title = "@Marcel_Kraus2"
