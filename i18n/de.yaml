@@ -3,9 +3,9 @@
 - id: education
   translation: ausbildung
 - id: experiences
-  translation: Berufserfahrung
+  translation: Stationen
 - id: information
-  translation: Informationen
+  translation: Rechtliches
 - id: interests
   translation: Hobbys
 - id: languages

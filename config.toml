@@ -1,60 +1,57 @@
-baseURL = "https://www.marcelkraus.de"
+baseURL = "https://www.marcelkraus.de/"
 theme = "devresume"
 
 languageCode = "de"
 defaultContentLanguage = "de"
-title = "Marcel J. Kraus, Softwareentwickler (iOS & Flutter)"
+title = "Marcel Kraus, Softwareentwickler (iOS & Web)"
 
 [params]
-    author = "Marcel J. Kraus"
-    description = "Marcel J. Kraus aus Erftstadt bei Köln, Softwareentwickler (iOS & Flutter) bei der Chefkoch GmbH in Bonn und selbstständiger IT-Dienstleister."
-    primaryColor = "#FF9900"
-    textPrimaryColor = "#1b1b1b"
+    author = "Marcel Kraus"
+    description = "Marcel Kraus aus Erftstadt bei Köln, Softwareentwickler (iOS & Web) bei der Chefkoch GmbH in Bonn und selbstständiger IT-Dienstleister."
+    primaryColor = "#FD9E1C"
+    textPrimaryColor = "#1B1B1B"
     [params.profile]
         enable = true
-        name = "Marcel J. Kraus"
-        tagline = "Softwareentwickler (iOS & Flutter)"
+        name = "Marcel Kraus"
+        tagline = "Ein Softwareentwickler mit vielen Qualitäten"
         avatar = "avatar.jpg"
     [params.contact]
         enable = true
-        location = "Erftstadt, bei Köln"
-        [[params.contact.list]]
-            icon = "fas fa-phone-square"
-            url = "tel:#"
-            text = "+49 2235 8401372"
+        location = "Erftstadt (bei Köln)"
         [[params.contact.list]]
             icon = "fas fa-envelope-square"
-            url = "mailto:#"
             text = "hallo (at) marcelkraus.de"
-        [[params.contact.list]]
-            icon = "fas fa-globe"
-            url = "#"
-            text = "www.marcelkraus.de"
     [params.summary]
         enable = true
-        text = "Ich bin Marcel, Softwareentwickler bei der Chefkoch GmbH in Bonn und ein Mann mit vielen Qualitäten. Ich entwickle für Apple iOS, Google Flutter und das Web (Symfony) und bin nebenberuflich selbstständig: Solltest du einen Entwickler (oder generell einen IT-Dienstleister) suchen, sprich mich gerne an.<br/><br/>In meiner Freizeit blogge ich über die Erfahrungen mit meinem Tesla Model 3, die Restauration meines Pontiac Trans Am, fahre über die legendäre Nordschleife oder sitze in meinem Rennsimulator: Ja, ich habe Benzin im Blut (oder Strom?!)."
-    [params.experience]
+        text = "Hallo, ich bin Marcel!\n\nIch bin Softwareentwickler mit Produkt-Erfahrung: Bei der Chefkoch GmbH in Bonn entwickle ich native Apps für iOS (iPhone & iPad), ausserdem schreibe ich Microservices für das Web (unter Verwendung von Symfony).\n\nDarüber hinaus bin ich nebenberuflich selbstständig tätig: Solltest du also einen Softwareentwickler, Produktmanager oder generell einen IT-Dienstleister suchen, sprich mich gerne an.\n\nIch habe Benzin (bzw. Strom) im Blut: In meiner Freizeit blogge ich über die Erfahrungen mit meinem Tesla Model 3, die Restauration meines Pontiac Trans Am, fahre über die legendäre Nordschleife oder sitze in meinem Rennsimulator."
+    [params.experience]   
         enable = true
         [[params.experience.list]]
-            title = "Softwareentwickler"
-            dates = "2016 - Heute"
+            title = "iOS-Entwickler"
+            dates = "Seit 07/2017"
             company = "Chefkoch GmbH, Bonn"
-            details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis."
-        [[params.experience.list.items]]
-            details = "Lorem ipsum dolor sit amet, consectetuer."
-        [[params.experience.list.items]]
-            details = "Aenean commodo ligula eget dolor."
-        [[params.experience.list.items]]
-            details = "Etiam ultricies nisi vel augue."
+            details = "Fortlaufende Entwicklung und Integration der iOS-, watchOS- und 	tvOS-Apps des Unternehmens unter Verwendung von Objective-C und Swift; seit Juli 2019: Neuentwicklung der bestehenden Chefkoch-App unter Verwendung der “hybriden“ Technologie-Plattform Flutter für Android und iOS."
         [[params.experience.list]]
-            title = "Projektleiter für Onlinedienste"
-            dates = "2004 - 2016"
+            title = "IT-Dienstleister"
+            dates = "Seit 10/2002"
+            company = "Einzelunternehmer, Erftstadt"
+            details = "Konzeption und Entwicklung von Webanwendungen und Apps für Apple iOS; Administration von Linux-Server-Umgebungen; Consulting und Support	für Hard- und Software-Produkte der Firma Apple, Inc."
+        [[params.experience.list]]
+            title = "PHP-Entwickler"
+            dates = "07/2016 bis 06/2017"
+            company = "Chefkoch GmbH, Bonn"
+            details = "Fortlaufende Entwicklung und Integration des Content-Management-Systems Drupal 8 in die bestehende Umgebung."
+        [[params.experience.list]]
+            title = "Projektleiter"
+            dates = "01/2011 bis 06/2016"
             company = "ASB Deutschland e.V., Köln"
-            details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel."
-            [[params.experience.list.items]]
-                details = "Lorem ipsum dolor sit amet, consectetuer."
-            [[params.experience.list.items]]
-                details = "Aenean commodo ligula eget dolor."
+            details = "Leitendes Projektmanagement bei Neu- und Weiterentwicklungen der Webanwendungen; Konzeption und Entwicklung von Webanwendungen; Anforderungsanalyse im Rahmen der Erneuerung der vorhandenen Businessanwendungen."
+        [[params.experience.list]]
+            title = "Web-Entwickler"
+            dates = "10/2004 bis 12/2010"
+            company = "ASB Deutschland e.V., Köln"
+            details = "Konzeption und Entwicklung von Webanwendungen; Technische Betreuung der Content-Management-Systeme; Administration des Dokumenten-Management-Systems Regisafe; Endbenutzer-Support."
+
         [params.projects]
             enable = true
             [[params.projects.list]]
@@ -64,7 +61,7 @@ title = "Marcel J. Kraus, Softwareentwickler (iOS & Flutter)"
                 [[params.projects.list.link]]
                     url = "https://www.twietesla.de"
                     title = "Besuche meinen Blog “T wie TESLA“…"
-                    cta = "T wie TESLA besuchen"
+                    localizedUrl = "https://www.twietesla.de"
             [[params.projects.list]]
                 title = "myKNIGHT.de"
                 meta = "Persönlicher Blog"
@@ -72,9 +69,25 @@ title = "Marcel J. Kraus, Softwareentwickler (iOS & Flutter)"
                 [[params.projects.list.link]]
                     url = "https://www.myknight.de"
                     title = "Besuche meinen Blog “myKNIGHT.de”…"
-                    cta = "myKNIGHT.de besuchen"
+                    localizedUrl = "https://www.myknight.de"
+            [[params.projects.list]]
+                title = "Tacho – Wie schnell bin ich?"
+                meta = "iOS-App"
+                tagline = "“Tacho – Wie schnell bin ich?” ist eine werbefreie und kostenlose Tacho-App für deine Hosentasche. Ohne störende Werbebanner zeigt dir “Tacho” die deine aktuelle Geschwindigkeit und deine aktuellen Position."
+                [[params.projects.list.link]]
+                    url = "https://tacho.marcelkraus.de"
+                    title = "Besuche die Landingpage für meine iOS-App “Tacho – Wie schnell bin ich?”…"
+                    localizedUrl = "https://tacho.marcelkraus.de"
     [params.information]
-        enable = false
+        enable = true
+        [[params.information.list]]
+            title = "Impressum"
+            [[params.information.list.items]]
+                details = "Adresse: Marcel Kraus, Dreikönigenweg 8a, 50374 Erftstadt  \nMail: hallo (at) marcelkraus.de  \nFon: +49 2235 8401372"
+        [[params.information.list]]
+            title = "Datenschutz"
+            [[params.information.list.items]]
+                details = "Der Schutz deiner Daten hat für mich einen hohen Stellenwert. Diese Seite ist frei von Tracking-Codes und Cookies, Log-Dateien des Webservers werden nicht ausgewertet. Dennoch freue ich mich über eine persönliche E-Mail von dir… :)"
     [params.education]
         enable = false
     [params.awards]
@@ -82,13 +95,31 @@ title = "Marcel J. Kraus, Softwareentwickler (iOS & Flutter)"
     [params.skills]
         enable = true
         [[params.skills.list]]
-            title = "iOS-Entwicklung"
+            title = "Programmiersprachen"
             [[params.skills.list.items]]
-            details = "Swift"
+                details = "- Dart"
+            [[params.skills.list.items]]
+                details = "- Objective-C"
+            [[params.skills.list.items]]
+                details = "- PHP"
+            [[params.skills.list.items]]
+                details = "- Swift"
+            [[params.skills.list]]
+                title = "Frameworks"
+                [[params.skills.list.items]]
+                    details = "- Cocoa Touch"
+                [[params.skills.list.items]]
+                    details = "- Flutter"
+                [[params.skills.list.items]]
+                    details = "- Symfony"
         [[params.skills.list]]
-            title = "Web-Entwicklung"
+            title = "Projektmanagement"
             [[params.skills.list.items]]
-            details = "Effective communication"
+                details = "- Kanban"
+            [[params.skills.list.items]]
+                details = "- PRINCE 2"
+            [[params.skills.list.items]]
+                details = "- Scrum"
     [params.languages]
         enable = true
         [[params.languages.list]]
