@@ -29,7 +29,7 @@
     --white: #fff;
     --gray: #7a7658;
     --gray-dark: #3f3d2d;
-    --primary: #FF6067;
+    --primary: #FF9933;
     --secondary: #4d4b38;
     --success: #28a745;
     --info: #17a2b8;
@@ -152,7 +152,7 @@ sup {
 }
 
 a {
-    color: #FF6067;
+    color: #FF9933;
     text-decoration: none;
     background-color: transparent
 }
@@ -2105,8 +2105,8 @@ a.btn.disabled, fieldset:disabled a.btn {
 
 .btn-primary {
     color: #fff;
-    background-color: #FF6067;
-    border-color: #FF6067
+    background-color: #FF9933;
+    border-color: #FF9933
 }
 
 .btn-primary:hover {
@@ -2121,8 +2121,8 @@ a.btn.disabled, fieldset:disabled a.btn {
 
 .btn-primary.disabled, .btn-primary:disabled {
     color: #fff;
-    background-color: #FF6067;
-    border-color: #FF6067
+    background-color: #FF9933;
+    border-color: #FF9933
 }
 
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show>.btn-primary.dropdown-toggle {
@@ -2360,14 +2360,14 @@ a.btn.disabled, fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-    color: #FF6067;
-    border-color: #FF6067
+    color: #FF9933;
+    border-color: #FF9933
 }
 
 .btn-outline-primary:hover {
     color: #fff;
-    background-color: #FF6067;
-    border-color: #FF6067
+    background-color: #FF9933;
+    border-color: #FF9933
 }
 
 .btn-outline-primary:focus, .btn-outline-primary.focus {
@@ -2375,14 +2375,14 @@ a.btn.disabled, fieldset:disabled a.btn {
 }
 
 .btn-outline-primary.disabled, .btn-outline-primary:disabled {
-    color: #FF6067;
+    color: #FF9933;
     background-color: transparent
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active, .show>.btn-outline-primary.dropdown-toggle {
     color: #fff;
-    background-color: #FF6067;
-    border-color: #FF6067
+    background-color: #FF9933;
+    border-color: #FF9933
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus, .show>.btn-outline-primary.dropdown-toggle:focus {
@@ -2601,7 +2601,7 @@ a.btn.disabled, fieldset:disabled a.btn {
 
 .btn-link {
     font-weight: 400;
-    color: #FF6067;
+    color: #FF9933;
     text-decoration: none
 }
 
@@ -2895,7 +2895,7 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
 .dropdown-item.active, .dropdown-item:active {
     color: #fff;
     text-decoration: none;
-    background-color: #FF6067
+    background-color: #FF9933
 }
 
 .dropdown-item.disabled, .dropdown-item:disabled {
@@ -3176,8 +3176,8 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
 
 .custom-control-input:checked~.custom-control-label::before {
     color: #fff;
-    border-color: #FF6067;
-    background-color: #FF6067
+    border-color: #FF9933;
+    background-color: #FF9933
 }
 
 .custom-control-input:focus~.custom-control-label::before {
@@ -3241,8 +3241,8 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
 }
 
 .custom-checkbox .custom-control-input:indeterminate~.custom-control-label::before {
-    border-color: #FF6067;
-    background-color: #FF6067
+    border-color: #FF9933;
+    background-color: #FF9933
 }
 
 .custom-checkbox .custom-control-input:indeterminate~.custom-control-label::after {
@@ -3463,7 +3463,7 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
     width: 1rem;
     height: 1rem;
     margin-top: -.25rem;
-    background-color: #FF6067;
+    background-color: #FF9933;
     border: 0;
     border-radius: 1rem;
     transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -3493,7 +3493,7 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
 .custom-range::-moz-range-thumb {
     width: 1rem;
     height: 1rem;
-    background-color: #FF6067;
+    background-color: #FF9933;
     border: 0;
     border-radius: 1rem;
     transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -3526,7 +3526,7 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
     margin-top: 0;
     margin-right: .2rem;
     margin-left: .2rem;
-    background-color: #FF6067;
+    background-color: #FF9933;
     border: 0;
     border-radius: 1rem;
     transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -3659,7 +3659,7 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #fff;
-    background-color: #FF6067
+    background-color: #FF9933
 }
 
 .nav-fill .nav-item {
@@ -4301,7 +4301,7 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
     padding: .5rem .75rem;
     margin-left: -1px;
     line-height: 1.25;
-    color: #FF6067;
+    color: #FF9933;
     background-color: #fff;
     border: 1px solid #aca88c
 }
@@ -4334,8 +4334,8 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
 .page-item.active .page-link {
     z-index: 1;
     color: #fff;
-    background-color: #FF6067;
-    border-color: #FF6067
+    background-color: #FF9933;
+    border-color: #FF9933
 }
 
 .page-item.disabled .page-link {
@@ -4418,7 +4418,7 @@ a.badge:hover, a.badge:focus {
 
 .badge-primary {
     color: #fff;
-    background-color: #FF6067
+    background-color: #FF9933
 }
 
 a.badge-primary:hover, a.badge-primary:focus {
@@ -4720,7 +4720,7 @@ a.badge-dark:focus, a.badge-dark.focus {
     color: #fff;
     text-align: center;
     white-space: nowrap;
-    background-color: #FF6067;
+    background-color: #FF9933;
     transition: width 0.6s ease
 }
 
@@ -4808,8 +4808,8 @@ a.badge-dark:focus, a.badge-dark.focus {
 .list-group-item.active {
     z-index: 2;
     color: #fff;
-    background-color: #FF6067;
-    border-color: #FF6067
+    background-color: #FF9933;
+    border-color: #FF9933
 }
 
 .list-group-horizontal {
@@ -5863,7 +5863,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-    background-color: #FF6067 !important
+    background-color: #FF9933 !important
 }
 
 a.bg-primary:hover, a.bg-primary:focus, button.bg-primary:hover, button.bg-primary:focus {
@@ -5975,7 +5975,7 @@ a.bg-dark:hover, a.bg-dark:focus, button.bg-dark:hover, button.bg-dark:focus {
 }
 
 .border-primary {
-    border-color: #FF6067 !important
+    border-color: #FF9933 !important
 }
 
 .border-secondary {
@@ -8640,7 +8640,7 @@ a.bg-dark:hover, a.bg-dark:focus, button.bg-dark:hover, button.bg-dark:focus {
 }
 
 .text-primary {
-    color: #FF6067 !important
+    color: #FF9933 !important
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -8834,7 +8834,7 @@ a.theme-link {
 }
 
 a.theme-link:hover {
-    color: #FF6067;
+    color: #FF9933;
     -webkit-text-decoration-color: rgba(255, 96, 103, 0.8);
     text-decoration-color: rgba(255, 96, 103, 0.8)
 }
@@ -8871,7 +8871,7 @@ a.theme-link:hover {
     padding-left: 1rem;
     font-size: 1.125rem;
     letter-spacing: 0.15rem;
-    color: #FF6067
+    color: #FF9933
 }
 
 .resume-section-heading:before {
@@ -8879,7 +8879,7 @@ a.theme-link:hover {
     display: inline-block;
     width: 5px;
     height: 100%;
-    background: #FF6067;
+    background: #FF9933;
     position: absolute;
     left: 0;
     top: 0
@@ -8889,7 +8889,7 @@ a.theme-link:hover {
     font-size: 2.75rem;
     font-weight: 900;
     letter-spacing: 0.4rem;
-    color: #FF6067
+    color: #FF9933
 }
 
 .resume-tagline {
@@ -8907,7 +8907,7 @@ a.resume-link {
 }
 
 a.resume-link:hover {
-    color: #FF6067
+    color: #FF9933
 }
 
 .resume-profile-image {
